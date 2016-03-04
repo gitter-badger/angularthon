@@ -1,0 +1,50 @@
+{
+  "name": "all-countries",
+  "version": "0.0.1",
+  "description": "A boilerplate for Angular.js web applications",
+  "main": "server/app.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "mocha tests/index.js  -w ",
+    "testonce": "mocha tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JahlomP/angularthon.git"
+  },
+  "keywords": [
+    "angular2",
+    "angular",
+    "javascript",
+    "nodejs",
+    "expressjs",
+    "boilerplate",
+    "angularthon",
+    "hackathon"
+  ],
+  "author": "Precious Jahlom Agboado <jahlomp@gmail.com> (http://jahlom.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JahlomP/angularthon/issues"
+  },
+  "homepage": "https://github.com/JahlomP/angularthon#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "commitizen": "2.5.0",
+    "cz-conventional-changelog": "1.1.5",
+    "mocha": "2.4.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-beta.8",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.33.13",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.2",
+    "zone.js": "^0.5.15"
+  }
+}
